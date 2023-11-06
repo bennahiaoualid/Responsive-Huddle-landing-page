@@ -104,26 +104,6 @@ header .container {
     justify-content: space-between;
 }
 
-header img {
-    /* width: 240px; */
-}
-
-header img:last-of-type {
-    /* display: none; */
-}
-
-@media (max-width:768px) {
-    header img {
-        /* width: 100px; */
-    }
-    header img:first-of-type {
-        /* display: none; */
-    }
-    header img:last-of-type {
-        display: block;
-    }
-}
-
 header a {
     width: fit-content;
     padding: 10px 30px;
@@ -195,33 +175,33 @@ header a {
     -webkit-text-fill-color: var(--natural-color-2);
     -webkit-text-stroke: 1px var(--natural-color-2);
     overflow: hidden;
-    animation: text-fill 0.5s linear forwards;
-    -webkit-animation: text-fill 0.5s linear forwards;
+    animation: text-fill 0.2s linear forwards;
+    -webkit-animation: text-fill 0.2s linear forwards;
 }
 
 .landing .text h1 span:nth-of-type(2)::before {
-    animation-delay: 0.5s;
+    animation-delay: 0.2s;
 }
 
 .landing .text h1 span:nth-of-type(3)::before {
-    animation-duration: 1s;
-    animation-delay: 1s;
+    animation-duration: 0.4s;
+    animation-delay: 0.4s;
 }
 
 .landing .text h1 span:nth-of-type(4)::before {
-    animation-delay: 2s;
+    animation-delay: 0.8s;
 }
 
 .landing .text h1 span:nth-of-type(5)::before {
-    animation-delay: 2.5s;
+    animation-delay: 1s;
 }
 
 .landing .text h1 span:nth-of-type(6)::before {
-    animation-delay: 3s;
+    animation-delay: 1.2s;
 }
 
 .landing .text h1 span:nth-of-type(7)::before {
-    animation-delay: 3.5s;
+    animation-delay: 1.4s;
 }
 
 .landing .text p {
